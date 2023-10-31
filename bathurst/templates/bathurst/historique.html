@@ -23,26 +23,30 @@
       <table>
         <tr>
           <th> <i class = "bi bi-thermometer-half temp-icon"></i>
-            <h2><span class = "weather">Température</span> <span class = "tempet"><span >{{actu.Temperature}}</span><sup>°C</sup>  </span> </h2>
+            <h2><span class = "weather">Température</span> <span class = "tempet"><sup>°C</sup>  </span> </h2>
        </th>
           <th><i class = "bi bi-droplet-fill humid-icon" ></i>
-            <h2><span class = "weather">Humidité</span> <span class = "humid"><span > {{actu.Humidite}}</span><sup> % </sup> </span></h2>
+            <h2><span class = "weather">Humidité</span> <span class = "humid"><sup>%</sup> </span></h2>
        </th>
-          <th> <i class = "bi bi-browser-safari pressure-icon"></i>
-            <h2><span class = "weather">Pression</span> <span class = "pression"> <span >85</span><sup> hPa</sup></span> </h2>
+          <th>
+            <h2><span class = "weather">Heure d'Envoi</span></h2>
        </th>
-          <th>Country</th>
+          <th> 
+            <h2><span class  =  "weather">Date d'Envoi</span></h2>
+    </th>
         </tr>
+        {% for histo in histos %}
         <tr>
-          <td>Alfreds Futterkiste</td>
-          <td>Maria Anders</td>
-          <td>Germany</td>
+          <td>{{histo.Temperature}}</td>
+          <td>{{histo.Humidite}}</td>
+          <td>{{histo.HeurEnvoi}}</td>
+          <td>{{histo.DatEnvoi}}</td>
+          
         </tr>
-        <tr>
-          <td>Centro comercial Moctezuma</td>
-          <td>Francisco Chang</td>
-          <td>Mexico</td>
-        </tr>
+        
+        {% endfor %}
+        
+        
       </table>
 
     </div>

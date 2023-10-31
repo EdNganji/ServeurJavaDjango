@@ -12,6 +12,6 @@ def home(request):
 def historique(request):
     hist = Capteurs.objects.all().order_by('-id')[:20]
     return render(request, "bathurst/historique.html", 
-                  {'hist': hist})
+                  {'histos': hist})
 
 
