@@ -4,6 +4,49 @@
 
  {%block content %}
           
+ <div class="col-12 col-md-12 bgd">
+    <div class = "row gy-4 mt-4">
+            
+                <div class = "col-12">
+                
+                    <h1 class="cen">Historique des lectures</h1>
+                    
+                </div>
+            
+    </div>
+
+        <br><br>
+
+        
     
+    <div class = "row gy-12 mt-12 ">
+      <table>
+        <tr>
+          <th> <i class = "bi bi-thermometer-half temp-icon"></i>
+            <h2><span class = "weather">Température</span> <span class = "tempet"><span >{{actu.Temperature}}</span><sup>°C</sup>  </span> </h2>
+       </th>
+          <th><i class = "bi bi-droplet-fill humid-icon" ></i>
+            <h2><span class = "weather">Humidité</span> <span class = "humid"><span > {{actu.Humidite}}</span><sup> % </sup> </span></h2>
+       </th>
+          <th> <i class = "bi bi-browser-safari pressure-icon"></i>
+            <h2><span class = "weather">Pression</span> <span class = "pression"> <span >85</span><sup> hPa</sup></span> </h2>
+       </th>
+          <th>Country</th>
+        </tr>
+        <tr>
+          <td>Alfreds Futterkiste</td>
+          <td>Maria Anders</td>
+          <td>Germany</td>
+        </tr>
+        <tr>
+          <td>Centro comercial Moctezuma</td>
+          <td>Francisco Chang</td>
+          <td>Mexico</td>
+        </tr>
+      </table>
+
+    </div>
+ </div> 
+</div>
   
 {% endblock %}
