@@ -1,0 +1,102 @@
+.temp-icon {
+    font-size: 48px; /* Augmenter la taille de l'icône */
+    color: #d2891c;  /* Changer la couleur de l'icône */
+    list-style: none;
+}
+
+.humid-icon {
+    font-size: 30px; /* Augmenter la taille de l'icône */
+    color: #528ee1;  /* Changer la couleur de l'icône */
+}
+
+.pressure-icon {
+    font-size: 36px; /* Augmenter la taille de l'icône */
+    color: #22a12f;  /* Changer la couleur de l'icône */
+}
+
+.altitude-icon {
+    font-size: 40px; /* Augmenter la taille de l'icône */
+    color: #d21cc0;  /* Changer la couleur de l'icône */
+}
+
+body{
+    font-size: 15px;
+    font-family: 'Gill Sans', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgba(169, 218, 248, 0.49);
+    padding: 1%;
+    text-align: center;
+    
+}
+
+.cen{
+    text-align: center;
+    
+}
+h2{
+    display: inline-block;
+    
+}
+
+
+.weather{
+    padding-left: 25px;
+    
+
+}
+
+.tempet{
+    padding-left: 25px;
+    color: #d2891c;
+}
+
+.humid{
+    padding-left: 55px;
+    color: #5a8cc9;
+}
+
+.pression{
+    padding-left: 50px;
+    color: #22a12f;
+}
+
+.altitude{
+    padding-left: 50px;
+    color: #d21cc0;
+}
+
+.marge{
+    margin: 1%;
+}
+
+
+#fontco{
+   background-color: aliceblue;
+}
+
+.bgd{
+   background-color: rgb(255, 255, 255);
+   padding-bottom: 4%;
+}
+
+#idh{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-style: italic;
+}
+
+.center { text-align: center; }
+.font { background-color: rgb(248, 247, 246); }
+.color { background-color: rgb(246, 248, 248); }
+#bgrd { background-image: url("https://dailygeekshow.com/wp-content/uploads/2022/03/une-ciel-bleu.jpg"); background-size: cover; }
+.bgrd2 { background-image: url("champ3.png"); background-size: cover; border-radius: 50%; box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);}
+
+h1,h2 { text-align: center; }
+body { padding: 4%; }
+.picture { width: 40px; height: 40px;}
+.pluvio{  color: #d2891c; }
+.bme{ color: #5a8cc9; }
+.lumi{  color: #22a12f; }
+.altitude{  color: #d21cc0; }
+#header { background-image: url("assets/images/font3.png"); text-align: center;  }
+
+.navbar-nav { text-align: right; }   /* make the menu right justify */
+.navbar, .navbar-nav, .nav-link { padding-right: 1em; }   /* add padding to the menu */
